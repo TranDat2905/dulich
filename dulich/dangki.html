@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register Page</title>
+  <link rel="stylesheet" href="dangki.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <img src="logo.png" alt="Logo" class="logo">
+      <nav>
+        <ul class="menu">
+          <li><a href="#">Dịch vụ</a></li>
+          <li><a href="#">Hỗ trợ khách hàng</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Registration Form -->
+  <main>
+    <div class="register-container">
+      <h2>Tạo tài khoản mới</h2>
+      <p>Bạn đã có tài khoản? <a href="dangnhap.html" class="login-link">Đăng nhập ngay</a></p>
+      <form action="#" class="register-form">
+        <label for="name">Họ và tên</label>
+        <input type="text" id="name" placeholder="Nhập họ và tên" required>
+
+        <label for="email">SĐT/Email</label>
+        <input type="email" id="email" placeholder="Nhập số điện thoại hoặc email" required>
+
+        <label for="password">Mật khẩu</label>
+        <div class="password-wrapper">
+          <input type="password" id="password" placeholder="Nhập mật khẩu" required>
+          <img src="images/eye-icon.png" alt="Hiện mật khẩu" class="toggle-password" id="toggle-password">
+        </div>
+
+        <label for="confirm-password">Nhập lại mật khẩu</label>
+        <div class="password-wrapper">
+          <input type="password" id="confirm-password" placeholder="Nhập lại mật khẩu" required>
+          <img src="images/eye-icon.png" alt="Hiện mật khẩu" class="toggle-password" id="toggle-confirm-password">
+        </div>
+
+        <button type="submit" class="btn-register">ĐĂNG KÝ NGAY</button>
+      </form>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>TỔNG CÔNG TY DU LỊCH ĐCL</p>
+    </div>
+  </footer>
+
+  <script src="mat2.js"></script>
+  <script src="dangki.js"></script>
+</body>
+</html>

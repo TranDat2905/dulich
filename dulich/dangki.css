@@ -1,0 +1,173 @@
+/* General reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Body */
+  body {
+    background-color: #f5f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+  }
+  
+  /* Registration Container */
+  .register-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .register-container h2 {
+    color: #000;
+    margin-bottom: 10px;
+  }
+  
+  .register-container .login-link {
+    color: #0056b3;
+    text-decoration: none;
+  }
+  
+  .register-container .login-link:hover {
+    text-decoration: underline;
+  }
+  
+  .register-form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  
+  .register-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .btn-register {
+    background: #3e0cb3;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .btn-register:hover {
+    background: #c20410;
+  }
+  
+  .form-footer .note,
+  .form-footer .policy {
+    font-size: 14px;
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  .form-footer .policy a {
+    color: #0056b3;
+    text-decoration: none;
+  }
+  
+  .form-footer .policy a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header */
+  .header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header .logo {
+    height: 40px;
+  }
+  
+  .header .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .header .menu li {
+    margin-left: 20px;
+  }
+  
+  .header .menu a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .header .menu a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #0d1117;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  .footer ul {
+    list-style: none;
+    margin: 10px 0 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer ul li {
+    margin: 0 10px;
+  }
+  
+  .footer ul a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer ul a:hover {
+    text-decoration: underline;
+  }
+  /* CSS giữ nguyên như bạn đã cung cấp, chỉ thêm chút định dạng cho biểu tượng con mắt */
+.password-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .password-wrapper img.toggle-password {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+  }
+  
